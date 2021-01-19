@@ -1,0 +1,24 @@
+[
+	[],
+	[],
+
+	[],
+	
+	[],
+
+	[{"nick":"Leonor","victories":2,"games":1},{"nick":"Alfredo","victories":2,"games":1}],
+
+	[],
+
+	[{"nick":"Andre","victories":1,"games":1},{"nick":"Joao","victories":3,"games":2},{"nick":"Aciria","victories":2,"games":1},{"nick":"Fabio","victories":0,"games":1}],
+
+	[],
+
+	[],
+
+	[],
+
+	[{"nick":"Jorge","victories":2,"games":1},{"nick":"Maria","victories":4,"games":1}]
+
+
+]

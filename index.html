@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Nim Game</title>
+	<link rel="icon" href="NimL.png" >
+	<link rel="stylesheet" href="style1.css" type="text/css"/>
+	<script src="script.js"></script>
+	
+	
+</head>
+
+<body>
+
+<img id="icone" src="NimL.png" alt="NimLogo"/>
+<div id="login">
+	<div id="loginlabel">Log In</div>
+	<form id="formulario" action="javascript:Register()">
+		<div class="input-div" id="input-user"> 
+			<input type="text" name="nome" placeholder="Username or Email"/>
+		</div>
+		
+		<div class="input-div" id="input-password"> 
+			<input type="password" name="password" placeholder="Password"/>
+		</div>
+		<div id="botoes">
+			<div id="botao"> 
+				<input type="submit" value="Login" name="Login"/>
+			</div>
+			<div id="lembrar-password">
+				<input type="checkbox"/>Remember my password
+			</div>
+		</div>
+	</form>
+</div>
+
+<div id="menu">
+	<h3>Nim Game</h3>		
+		<div class="configuracoes">
+			Size
+				<select name="size" id="sizeBoard" >
+						<option value=4>4 x 4</option>
+						<option value=6>6 x 6</option>
+						<option value=10>10 x 10</option>
+				</select>
+		</div>
+		<div class="configuracoes" >
+			Singleplayer/Multiplayer
+				<select name="nmr" id="comeca" >
+						<option value=1>Singleplayer</option>
+						<option value=2>Multiplayer</option>
+				</select>
+		</div>
+		<div class="configuracoes" >
+			Who start´s?
+				<select name="comeca" id ="start">
+						<option value=1>Me</option>
+						<option value=2>Computer</option>
+
+				</select>
+		</div>
+		<div class="configuracoes">
+			Dificulty
+				<select name="dificulade" id= "dificuldade" >
+						<option value=1>Easy</option>
+						<option value=2>Medium</option>
+						<option value=3>Hard</option>
+				</select>
+		</div>
+	
+		<input type="button" onclick="Regras()" class="configuracoes" value="Rules">
+		<input type="button" onclick="play()" class="configuracoes" value="Play"/>
+		<input type="button" onclick="Join()" class="configuracoes" value="Join"/>
+		<input type="button" onclick="ranking()" class="configuracoes" value="Ranking"/>
+		<input type="button" onclick="sair()" class="configuracoes" value="Logout"/>
+
+		
+</div>
+
+<br><br><br><br>
+
+<div id=rules>
+<p>
+Nim é um jogo em que se considera um conjunto de pilhas de objectos. Dois jogadores jogam de forma alternada e retiram um determinado número de objectos de uma das pilhas. Inclusivamente, é possível que todos os objectos de uma pilha sejam retirados. O último jogador a intervir, ganha.
+
+Assim, a família de jogos Nim é vasta, uma vez que pode variar o número de pilhas e o número de objectos, mas claramente nenhum desses jogos pode terminar em empate. Então, existe um jogador que ganha.	
+</p>
+</div>
+
+
+<div id="tab">
+		
+</div>
+
+
+
+<div id="painel_rank">
+	<div class="container">
+			<header>
+        <h1>Ranking</h1>
+			</header>
+			<div class="wrapper">
+				<table id="tabelaclassificacao">
+					<thead>
+						<tr>
+							<th>Name</th>
+							<th>Victories</th>
+							<th>Games</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+                <td class="rank"></td>
+                <td class="team"></td>
+                <td class="points"></td>
+              </tr>
+					  <tr>
+                <td class="rank"></td>
+                <td class="team"></td>
+                <td class="points"></td>
+                
+              </tr>
+            	<tr>
+                <td class="rank"></td>
+                <td class="team"></td>
+                <td class="points"></td>
+                
+              </tr>
+            	<tr>
+                <td class="rank"></td>
+                <td class="team"></td>
+                <td class="points"></td>
+                
+              </tr>
+              <tr>
+                <td class="rank"></td>
+                <td class="team"></td>
+                <td class="points"></td>
+                
+              </tr>
+              <tr>
+                <td class="rank"></td>
+                <td class="team"></td>
+                <td class="points"></td>
+                
+              </tr>
+              <tr>
+                <td class="rank"></td>
+                <td class="team"></td>
+                <td class="points"></td>
+                
+              </tr>
+              <tr>
+                <td class="rank"></td>
+                <td class="team"></td>
+                <td class="points"></td>
+                
+              </tr>
+              <tr>
+                <td class="rank"></td>
+                <td class="team"></td>
+                <td class="points"></td>
+                
+              </tr>
+              <tr>
+                <td class="rank"></td>
+                <td class="team"></td>
+                <td class="points"></td>
+                
+              </tr>
+              <tr>
+                <td class="rank"></td>
+                <td class="team"></td>
+                <td class="points"></td>
+                
+              </tr>
+              <tr>
+                <td class="rank"></td>
+                <td class="team"></td>
+                <td class="points"></td>
+                
+              </tr>
+            	
+            
+					</tbody>
+				</table>
+			</div>
+		</div>
+</div>
+
+
+
+</body>
+</html>

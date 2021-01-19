@@ -1,0 +1,1 @@
+[{"nick":"lol","pass":"efaaf854dfc8acd9e1f8c8c112e3d879","salt":"1qde"}]
